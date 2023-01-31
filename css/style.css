@@ -4,12 +4,19 @@
 body{
     margin: 30px;
     padding: 6px;
-    /* background-color: lightcoral;
-    color: white; */
+    background-color: lightcoral;
+    color: white;
 }
-main {
+/* main {
     font-weight: bold;
-}
+    display: grid;
+    grid-template-columns: 3fr 3fr 5fr;
+} */
+.container {
+    display: grid; 
+    grid-template-columns: 3fr 3fr 5fr 3fr;
+    }
+    
 h1 {
     font-size: 25px;
 }
@@ -23,7 +30,7 @@ p {
    /* padding-block-start: 12px; */
     padding: 12px;
     background: rgb(249, 243, 243);
-    /* background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(248,0,255,1) 0%, rgba(255,55,106,0.35362504376750703) 38%, rgba(255,0,255,1) 70%, rgba(191,0,126,1) 100%); */
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(248,0,255,1) 0%, rgba(255,55,106,0.35362504376750703) 38%, rgba(255,0,255,1) 70%, rgba(191,0,126,1) 100%);
 }
 
 img {
@@ -45,7 +52,7 @@ ul {
     font-size: 14px;
     padding: 12px;
 }
-a {
+nav > ul > li > a {
     text-decoration-line: none;
     font-size: 30px;
     border: solid green;
